@@ -64,4 +64,4 @@ Para rodar o projeto em seu ambiente local, siga os passos abaixo:
    ```bash
    ng serve
 
-5. Acesse o projeto no navegador: http://localhost:4200/`
+5. Acesse o projeto no navegador: http://localhost:4200/
