@@ -1,42 +1,67 @@
-![Jornada Milhas](thumbnail.png)
+# Projeto de Componentização de Formulários e Integração com API - Angular
 
-# Jornada Milhas
+Este projeto foi desenvolvido durante o curso da **Alura** sobre **Componentização de Formulários e Integração com API em Angular**. O objetivo principal foi aprender a criar componentes reutilizáveis e controlar o estado de formulários, além de integrar a aplicação com uma API externa para obter dados dinâmicos relacionados a destinos de viagem.
 
-O Jornada Milhas é uma StartUP. 
-Nesse momento, é um MVP que tá só começando e ainda tem muitas funcionalidades novas para serem desenvolvidas.
+![Imagem do Projeto](screenshot.png)
 
-<img src="screenshot.png" alt="Imagem do Jornada Milhas" width="50%">
+## 🛠️ Funcionalidades
+
+Este projeto implementa um formulário reativo para pesquisa de destinos de viagem, incluindo as seguintes funcionalidades:
+
+- **Componente de Busca**: Criamos um componente controlado por um `FormControl` que centraliza o controle de estado do formulário. O controle é dividido entre o formulário e uma modal.
+
+## 🌍 Integração com a API
+
+A aplicação se comunica com uma API externa para obter dados dinâmicos sobre destinos de viagem. A API retorna informações como:
+
+- **Imagem** do destino
+- **Preço** do destino
+- **Nome** do destino
+- **Origem** e **Destino** para consulta de itinerários
 
 
-## 🔨 Funcionalidades do projeto
+Esses dados são atualizados dinamicamente na aplicação, proporcionando uma experiência mais interativa para os usuários.
 
-Nesse primeiro momento, nós temos a página que foi idealizada como a primeiro entrega do time de desenvolvimento.
+Você pode acessar o código da API no seguinte repositório:
 
-Durante o curso, nós vamos desenvolver o controle do formulário de busca. 
-O desafio é criar um componente que é controlado por um FormControl e centralizar o controle de estado do formulário de busca, onde temos parte dentro do formulário e parte dentro da modal.
+[Repositório da API](https://github.com/alura-cursos/jornada-milhas-api.git)
 
-O [Figma dessa aplicação você encontra aqui](https://www.figma.com/file/SI696t31Q9zlsXKttCoqKP/Angular%3A-Componentização-e-Design-com-Angular-Material-%7C-Jornada-Milhas?type=design&node-id=4-6408&mode=design&t=mmbAh5QEafSRIGqQ-0).
+[Figma dessa aplicação você encontra aqui](https://www.figma.com/file/SI696t31Q9zlsXKttCoqKP/Angular%3A-Componentização-e-Design-com-Angular-Material-%7C-Jornada-Milhas?type=design&node-id=4-6408&mode=design&t=mmbAh5QEafSRIGqQ-0).
 
-## ✔️ Técnicas e tecnologias utilizadas
+## ✔️ Tecnologias 
 
-Se liga nessa lista de tudo que usaremos nesse curso:
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=angular,sass,ts" alt="Skills" />
+  <br />
+</div>
 
-- `Angular`
-- `Angular CLI`
-- `Angular Material`
-- `Figma`
+- **Angular**
+- **TypeScript**
+- **SASS**
+- **Angular Material**
 
-E muito mais!
 
-## 🛠️ Abrir e rodar o projeto
 
-Para abrir e rodar o projeto, execute `npm i` para instalar as dependências e `ng serve` para iniciar o projeto.
 
-Depois, acesse <a href="http://localhost:4200/">http://localhost:4200/</a> no seu navegador.
 
-O backend utilizado você encontra [aqui](https://github.com/viniciosneves/jornada-milhas-api).
+## 🚀 Como Rodar o Projeto
 
-## 📚 Mais informações do curso
+Para rodar o projeto em seu ambiente local, siga os passos abaixo:
 
-O Jornada Milhas é uma StartUP fictícia utilizada nesse curso da Alura.
-A ideia principal desse curso é evoluir ainda mais os conhecimentos em Angular e estilização de componentes.
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/projeto-angular.git
+
+2. Navege ao diretório do projeto:
+   ```bash
+   cd JornadaMilhas
+
+3. Instale as dependências:
+   ```bash
+   npm install
+
+4. Inicie o servidor:
+   ```bash
+   ng serve
+
+5. Acesse o projeto no navegador: http://localhost:4200/`
